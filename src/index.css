@@ -1,0 +1,87 @@
+body {
+  background-color: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input-area button {
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background: #0056b3;
+}
+
+.filtros {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filtros button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: #f8f9fa;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filtros button:hover {
+  background: #e9ecef;
+}
+
+.lista {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tarefa {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.tarefa:last-child {
+  border-bottom: none;
+}
+
+.tarefa span.concluida {
+  text-decoration: line-through;
+  color: gray;
+}
