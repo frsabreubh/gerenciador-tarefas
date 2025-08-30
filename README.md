@@ -29,16 +29,16 @@ O estado é gerenciado globalmente com **Context API + useReducer**.
 ---
 
 ## 📂 Estrutura do projeto
-src/
-├── App.js
-├── index.js
-├── index.css
-├── context/
-│ └── TarefasContext.js
-├── components/
-│ ├── ListaDeTarefas.js
-│ └── Tarefa.js
 
+src/
+├─ App.js
+├─ index.js
+├─ index.css
+├─ context/
+│  └─ TarefasContext.js
+└─ components/
+   ├─ ListaDeTarefas.js
+   └─ Tarefa.js
 
 ---
 
@@ -63,15 +63,11 @@ yarn start
 
 Acesse: 👉 http://localhost:3000
 
-🎨 Preview
-Lista de tarefas
-Input para adicionar novas tarefas
-Filtros: Todas, Concluídas ou Pendentes
+---
 
 📜 Licença
 
 Este projeto é open-source e pode ser usado livremente.
-
 
 ---
 
