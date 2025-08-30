@@ -30,15 +30,15 @@ O estado é gerenciado globalmente com **Context API + useReducer**.
 
 ## 📂 Estrutura do projeto
 
-src/
-├─ App.js
-├─ index.js
-├─ index.css
-├─ context/
-│  └─ TarefasContext.js
-└─ components/
-   ├─ ListaDeTarefas.js
-   └─ Tarefa.js
+- src/
+  - App.js
+  - index.js
+  - index.css
+  - context/
+    - TarefasContext.js
+  - components/
+    - ListaDeTarefas.js
+    - Tarefa.js
 
 ---
 
